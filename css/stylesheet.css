@@ -1,3 +1,69 @@
-#background {
-    position: fixed;
-};
+.clear-box {
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar {
+    height: 125px;
+    width: 100%;
+    background-color: #ffdead;
+    margin: auto;
+}
+
+.top-text {
+    height: 300px;
+    width: 100%;
+    background-color: #00ffff;
+}
+
+.middle-text {
+    height: 300px;
+    width: 100%;
+    background-color: #ffdead;
+}
+
+.bottom-text {
+    height: 300px;
+    width: 100%;
+    background-color: #00ffff;
+}
+
+.footer {
+    height: 125px;
+    background-color: #ffdead;
+    margin: 0px;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0px 5px 0px 5px;
+}
+
+ul {
+    text-align:center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+html {
+    background: url("http://fullhdpictures.com/wp-content/uploads/2015/03/Landscape-Wallpapers-2015.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
