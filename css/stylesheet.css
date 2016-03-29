@@ -1,66 +1,65 @@
 .clear-box {
-    height: 300px;
+    height: 1000px;
     width: 100%;
-    background-color: transparent;
+    background-color: #808080;
+    opacity: 0.6;
+    clear:both;
 }
 
-.navbar {
-    height: 125px;
-    width: 300px;
-    background-color:#808080;
-    margin: auto;
-    float:left;
+.top-clear {
+    height: 1000px;
+    width: 100%;
+    background-color: #808080;
+    opacity: 0.6;
 }
 
-.navbar p{
-    opacity: 1;
-}
 
 .top-text {
-    height: 300px;
+    height: 1000px;
     width: 100%;
-    background-color:#808080;
+    background-color: #faebd7;
+    clear: both;
+    filter: brightness(0.50%);
 }
 
-.middle-text {
-    height: 300px;
-    width: 100%;
-    background-color:#808080;
+.middle-left {
+    height: 600px;
+    width: 50%;
+    float: left;
+    background-color: #00ffff;
+    opacity: 0.8;
+
 }
 
-.bottom-text {
-    height: 300px;
+.middle-right {
+    height: 600px;
+    width: 50%;
+    float: right;
+    background-color: #808080;
+}
+.bottom {
+    height: 1000px;
     width: 100%;
-    background-color:#808080;
+    background-color: #faebd7;
+    clear: both;
 }
 
 .footer {
-    height: 125px;
-    background-color:#808080;
+    height: 75px;
+    width: 100%;
+    background-color: #00ffff;
+    float: both;
 }
 
-.navbar ul li {
-    display: inline;
-    list-style-type: none;
-    text-align: center;
-    font-size: 2em;
-    color: #ffffff;
-    margin: 0px 5px 0px 5px;
+.navbar h1{
+  text-align: center;
 }
-
-ul {
-    text-align:center;
-}
-
-p {
+.navbar h3 {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-}
 html {
-    background: url("http://tremendouswallpapers.com/wp-content/uploads/2014/12/landscapes-nature_00428401.jpg") no-repeat center center fixed;
+    background: url("../pictures/wedding photo.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
