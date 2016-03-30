@@ -1,4 +1,4 @@
-.clear-box {
+#clear-box {
     height: 1000px;
     width: 100%;
     background-color: #808080;
@@ -6,7 +6,7 @@
     clear:both;
 }
 
-.top-clear {
+#top-clear {
     height: 1000px;
     width: 100%;
     background-color: #808080;
@@ -14,7 +14,7 @@
 }
 
 
-.top-text {
+#top-text {
     height: 1000px;
     width: 100%;
     background-color: #faebd7;
@@ -22,7 +22,7 @@
     filter: brightness(0.50%);
 }
 
-.middle-left {
+#middle-left {
     height: 600px;
     width: 50%;
     float: left;
@@ -31,30 +31,38 @@
 
 }
 
-.middle-right {
+#middle-right {
     height: 600px;
     width: 50%;
     float: right;
     background-color: #808080;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 2.25em;
 }
-.bottom {
+
+#middle-right p {
+    margin: 22% 10% 0% 10%;
+}
+#bottom {
     height: 1000px;
     width: 100%;
     background-color: #faebd7;
     clear: both;
 }
 
-.footer {
+#footer {
     height: 75px;
     width: 100%;
     background-color: #00ffff;
     float: both;
 }
 
-.navbar h1{
+#navbar h1{
   text-align: center;
 }
-.navbar h3 {
+#navbar h3 {
     text-align: center;
 }
 
