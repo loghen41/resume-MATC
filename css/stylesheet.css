@@ -1,6 +1,8 @@
 #navbar {
     position: fixed;
-    margin: 20% 0% 0% 1%;
+    text-align: right;
+    right: 0%;
+    top: 45%;
     z-index: 1;
 }
 #navbar ul li:first-child {
@@ -22,6 +24,7 @@
 #navbar ul a:hover {
 }
 #clear-box {
+    position:relative;
     height: 1000px;
     width: 100%;
     clear:both;
@@ -29,7 +32,21 @@
     opacity: 0.6;
     -webkit-filter: opacity(.6);
 }
-
+#contact {
+    position: absolute;
+    height: 35%;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    bottom: 35%;
+    right: 20%;
+}
+#textForm {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
 #top-clear {
     height: 1000px;
     width: 100%;
@@ -47,18 +64,18 @@
 }
 
 #middle-left {
-    height: 600px;
+    height: 800px;
     width: 50%;
     float: left;
-    background-color: #00ffff;
-    opacity: 0.8;
+    background-color: #b0c4de;
+    opacity: 0.7;
 }
 
 #middle-right {
-    height: 600px;
+    height: 800px;
     width: 50%;
     float: right;
-    background-color: #808080;
+    background-color: #b0c4de;
     text-align: center;
     color: #ffffff;
     font-family: Georgia, Serif;
@@ -68,7 +85,7 @@
 #middle-right p {
     margin: 22% 10% 0% 10%;
 }
-#bottom {
+#portfolio {
     height: 1000px;
     width: 100%;
     background-color: #faebd7;
@@ -115,7 +132,7 @@
 }
 
 html {
-    background: url("../pictures/wedding photo.jpg") no-repeat center center fixed;
+    background: url("../pictures/resized logan3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
