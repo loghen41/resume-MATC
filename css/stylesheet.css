@@ -2,7 +2,7 @@
     position: fixed;
     text-align: right;
     right: 0%;
-    top: 45%;
+    top: 40%;
     z-index: 1;
 }
 #navbar ul li:first-child {
@@ -22,6 +22,7 @@
 }
 
 #navbar ul a:hover {
+    color: #ffffff;
 }
 #clear-box {
     position:relative;
@@ -67,8 +68,7 @@
     height: 800px;
     width: 50%;
     float: left;
-    background-color: #b0c4de;
-    opacity: 0.7;
+    background-color: transparent;
 }
 
 #middle-right {
@@ -86,21 +86,24 @@
     margin: 22% 10% 0% 10%;
 }
 #portfolio {
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background-color: #faebd7;
     clear: both;
-    text-align: center;
+    position: relative;
 }
 
 #photo-table img {
     height: 20em;
     width: 20em;
     opacity: 0.3;
+    margin-right: 3px;
 }
+
 #photo-table {
-    margin:  .75% 0% 0% 0%;
+    left: 7.5%;
     position: absolute;
+    text-align: center;
 }
 #photo-table img:hover{
     -webkit-filter: grayscale(0%) opacity(1.0);
@@ -129,6 +132,31 @@
 }
 #navbar h3 {
     text-align: center;
+}
+
+#bottomRight {
+    height: 800px;
+    width: 50%;
+    float: right;
+    background-color: #b0c4de;
+    opacity: 0.7;
+}
+
+#bottomLeft {
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: #b0c4de;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, Serif;
+    font-size: 2.25em;
+}
+#bottom {
+    height: 1000px;
+    width: 100%;
+    background-color: #faebd7;
+    clear: both;
 }
 
 html {
