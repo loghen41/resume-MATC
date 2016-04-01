@@ -2,7 +2,7 @@
     position: fixed;
     text-align: right;
     right: 0%;
-    top: 40%;
+    top: 30%;
     z-index: 1;
 }
 #navbar ul li:first-child {
@@ -29,9 +29,7 @@
     height: 1000px;
     width: 100%;
     clear:both;
-    background-color: #808080;
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+    background-color: transparent;
 }
 #contact {
     position: absolute;
@@ -41,12 +39,14 @@
     border-radius: 10px;
     bottom: 35%;
     right: 20%;
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
 }
 #textForm {
     text-align: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    bottom: 40%;
+    right: 22%;
 }
 #top-clear {
     height: 1000px;
@@ -55,23 +55,35 @@
     opacity: 0.6;
     -webkit-filter: opacity(.6);
 }
+#aboutMePhotos img{
+    max-height: 12em;
+    max-width:12em;
+    padding: 40px;
+    margin: 40px;
+}
 
+#aboutMePhotos {
+    position: absolute;
+    left: 10%;
+    text-align: center;
+}
 
 #top-text {
     height: 1000px;
     width: 100%;
     background-color: #faebd7;
     clear: both;
+    position: relative;
 }
 
-#middle-left {
+#top-left {
     height: 800px;
     width: 50%;
     float: left;
     background-color: transparent;
 }
 
-#middle-right {
+#top-right {
     height: 800px;
     width: 50%;
     float: right;
@@ -134,18 +146,40 @@
     text-align: center;
 }
 
-#bottomRight {
+#middleRight {
     height: 800px;
     width: 50%;
     float: right;
     background-color: #b0c4de;
-    opacity: 0.7;
 }
 
+#middleRight {
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: #b0c4de;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, Serif;
+    font-size: 2.25em;
+}
+#middle {
+    height: 1000px;
+    width: 100%;
+    background-color: #faebd7;
+    clear: both;
+}
 #bottomLeft {
     height: 800px;
     width: 50%;
     float: left;
+    background-color: transparent;
+}
+
+#bottomRight {
+    height: 800px;
+    width: 50%;
+    float: right;
     background-color: #b0c4de;
     text-align: center;
     color: #ffffff;

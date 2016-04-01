@@ -11,26 +11,38 @@
     <ul>
         <li><a href ="#top-clear">Home</a></li>
         <li><a href="#top-text">About me</a></li>
-        <li><a href="#middle-right">Me in 30 Seconds</a></li>
+        <li><a href="#top-right">Me in 30 Seconds</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#bottomLeft">Placeholder</a></li>
-        <li><a href="#bottom">Education</a></li>
+        <li><a href="#middle">Education</a></li>
+        <li><a href="#middleLeft">Placeholder</a></li>
+        <li><a href="#bottom">Work Experience</a></li>
         <li><a href="#clear-box">Contact me</a></li>
     </ul>
 </div>
 <div id= "top-clear">
 </div>
 <div id = "top-text">
-    <h1 style="font-family: Georgia; text-align: left; font-size:50px;">About me</h1>
+    <div id="aboutMeText">
+        <h1 style="font-family: Georgia; text-align: left; font-size:50px;">About me</h1>
+        <p> My name is Logan Hendricks.  I am a graduate of Brigham Young University-Idaho with a degree in Art History and Business.  My professional work has been involved in Art Gallery Management and Financial Management.</p>
+        <p>  For the next year I am dedicating my time and resources to developing a career in Web Development and Design.  I am currently searching for possible internships and entry level positions in that field.</p>
+        <p> Below is a basic summary of my previous work history.</p>
+    </div>
 </div>
-<div id = "middle-left">
+<div id = "top-left">
 </div>
 <!-- middle right, Intended text box for small paragraph -->
-<div id = "middle-right">
+<div id = "top-right">
+    <br>
     <br>
     <br>
     <br>
     <h1 style="font-family: Georgia; font-size: 50px;">Me in 30 seconds</h1>
+    <br>
+    <br>
+    <br>
+    <br>
     <p> I am a dynamic design professional aggressively pursuing my next business venture in Web Development and Design. My work has been exhibited throughout the United States and internationally in Paris and Fiji </p>
 </div>
 <!-- photo page layout on "Bottom div -->
@@ -69,26 +81,50 @@
         </table>
     </div>
 </div>
-<div id="bottomLeft">
+<div id="middleLeft">
+
+</div>
+<div id="middleRight">
+
+</div>
+<div id = "middle">
+    <h1 style="font-family: Georgia; text-align: left; font-size:50px;">Education</h1>
+</div><div id="bottomLeft">
 
 </div>
 <div id="bottomRight">
 
 </div>
 <div id = "bottom">
-    <h1 style="font-family: Georgia; text-align: left; font-size:50px;">Education</h1>
+    <h1 style="font-family: Georgia; text-align: left; font-size:50px;">Work Experience</h1>
+    <div id="aboutMePhotos">
+        <table>
+            <tr>
+                <td><img class ="rectangle" src="../pictures/work%20photo/ZionsBank-logo_wTag-stack.png"></td>
+                <td><img class ="rectangle" src="../pictures/work%20photo/800px-Logo_of_the_Church_of_Jesus_Christ_of_Latter-day_Saints.svg.png"></td>
+                <td><img src="../pictures/work%20photo/blackback.jpg"></td>
+                <td><img src="../pictures/work%20photo/BYUI1.png"></td>
+            </tr>
+            <tr>
+                <td><img class ="rectangle" src="../pictures/work%20photo/Associated-Food-Stores.png"></td>
+                <td><img src="../pictures/work%20photo/download.jpeg"></td>
+                <td><img src="../pictures/work%20photo/dbb1f0_b574434855d446269e22c039c2729da0.png"></td>
+                <td><img class ="rectangle" src="../pictures/work%20photo/securitas-logo.jpg"></td>
+            </tr>
+        </table>
+    </div>
 </div>
 <div id = "clear-box">
     <div id = "contact">
-        <form id="textForm">
-            <h3 style="font-family = Georgia">Contact me</h3><br>
-           <label for="name" style="font-family: Georgia;">Name </label> <input id="name" name="name"><br><br>
-            <label for="email" style="font-family: Georgia;">Email </label><input id="email" name="email"><br><br>
-            <p font-family="Georgia">Message</p>
-            <textarea cols="60" rows="10"></textarea>
-            <input type="submit" value="Submit">
-        </form>
     </div>
+    <form id="textForm" method="post" action="Thanks.html">
+        <h3 style="font-family = Georgia">Contact me</h3><br>
+        <label for="name" style="font-family: Georgia;">Name </label> <input id="name" name="name"><br><br>
+        <label for="email" style="font-family: Georgia;">Email </label><input id="email" name="email"><br><br>
+        <p font-family="Georgia">Message</p>
+        <textarea cols="60" rows="10" maxlength="500"></textarea>
+        <input type="submit" value="Submit">
+    </form>
 </div>
 <div id = "footer">
     <ul id = "social-media">
