@@ -45,6 +45,18 @@
     -webkit-filter: opacity(.6);
 }
 
+#educationPhotos {
+    position:absolute;
+    top: 12%;
+    left: 15%;
+    text-align: center;
+}
+#educationPhotos img{     max-height: 275px;
+     max-width:275px;
+     padding: 40px;
+     margin: 40px;
+ }
+
 #footer {
     height: 60px;
     width: 100%;
@@ -57,7 +69,11 @@
     list-style-type: none;
     display: inline;
 }
+.header {
 
+
+
+}
 html {
     background: url("../pictures/resized logan3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -72,6 +88,7 @@ html {
     width: 100%;
     background-color: #faebd7;
     clear: both;
+    position: relative;
 }
 
 #middleRight {
@@ -101,18 +118,20 @@ html {
 
 #navbar {
     position: fixed;
-    text-align: right;
-    right: 0%;
-    top: 40%;
+    text-align: center;
+    right: 3%;
+    top: 2%;
     z-index: 1;
 }
-#navbar ul li:first-child {
+/* #navbar ul li:first-child {
     border-top: 1px #000000 solid;
-}
+}  taking off border on navbar*/
+
 #navbar ul li {
     list-style-type: none;
-    border-bottom: 1px #000000 solid;
-    margin: 2% 0% 2% 0%;
+    /* border-bottom: 1px #000000 solid; */
+    margin: 8% 0% 8% 0%;
+    display: inline;
 }
 
 #navbar ul li a {
@@ -122,8 +141,34 @@ html {
     font-family: Georgia, Serif;
 }
 
-#navbar ul a:hover {
-    color: #ffffff;
+#homeIcon:hover {
+      opacity: 0.6;
+      -webkit-filter: opacity(.6);
+}
+
+#profileIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
+
+#imagesIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
+
+#educationIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
+
+#workIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
+
+#contactIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
 }
 
 #navbar h1{
