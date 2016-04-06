@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <link type = "text/css" href = "../css/stylesheet.css" rel = "stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Logan L Hendricks</title>
     <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
 </head>
 <body>
-<div id = "navbar">
-    <ul>
-        <li id="homeIcon"><a href ="#top-clear"><img src= "../pictures/navbar/web%20(3).png"></a></li>
-        <li id="imagesIcon"><a href="#portfolio"><img src="../pictures/navbar/square.png"></a></li>
-        <li id="educationIcon"><a href="#middle"><img src="../pictures/navbar/school%20(1).png"></a></li>
-        <li id="workIcon"><a href="#bottom"><img src="../pictures/navbar/business%20(1).png"> </a></li>
-        <li id="contactIcon"><a href="#clear-box"><img src="../pictures/navbar/dark.png"></a></li>
-    </ul>
-</div>
 <div id="home">
     <div id= "top-clear">
+        <div id = "navbar">
+            <ul>
+                <li id="homeIcon"><a href ="#top-clear"><img src= "../pictures/navbar/web%20(3).png"><span class="navbartext">Home</span></a></li>
+                <li id="imagesIcon"><a href="#portfolio"><img src="../pictures/navbar/square.png"><span class="navbartext">Portfolio</span></a></li>
+                <li id="educationIcon"><a href="#middle"><img src="../pictures/navbar/school%20(1).png"><span class="navbartext">Education</span></a></li>
+                <li id="workIcon"><a href="#bottom"><img src="../pictures/navbar/business%20(1).png"><span class="navbartext">Work Experience</span></a></li>
+                <li id="contactIcon"><a href="#clear-box"><img src="../pictures/navbar/dark.png"><span class="navbartext">Contact me</span></a></li>
+            </ul>
+        </div>
+        <div id="aboutMeBox">
+            <div id="aboutMeText">
+                <br><br><br><br><br>
+                <h1 style="font-size:45px">Me in 30 seconds</h1>
+                <br> <br>
+                <p> I am a dynamic design professional aggressively pursuing my next business venture in Web Development and Design.</p>
+                <br>
+                <br>
+                <p> I graduated from BYU-Idaho with a Bachelor of Arts Degree in Art History and Business, and am afuture graduate of the Web Design and Development program of MATC. </p>
+            </div>
+        </div>
     </div>
-    <div id="aboutMeBox"></div>
-    <div id="aboutMeText">
-        <br>
-        <br>
-        <br>
-        <h1 style="font-size:45px">Me in 30 seconds</h1>
-        <br> <br>
-        <p> I am a dynamic design professional aggressively pursuing my next business venture in Web Development and Design.</p>
-        <br>
-        <br>
-        <p> I graduated from BYU-Idaho with a Bachelor of Arts Degree in Art History and Business, and am afuture graduate of the Web Design and Development program of MATC. </p>
     </div>
-</div>
     <!-- <div class="header"><h1 class="title">About me</h1></div>
                 <p> My name is Logan Hendricks.   My professional work has been involved in Art Gallery Management and Financial Management.</p>
                 <p>  For the next year I am dedicating my time and resources to developing a career in Web Development and Design.  I am currently searching for possible internships and entry level positions in that field.</p>
@@ -52,7 +53,7 @@ Preserve this text for potential use later-->
     <table class="header">
         <tr>
             <td><img src="../pictures/headers/square%20(4).png"></td>
-            <td>Portfolio</td>
+            <td><h1>Portfolio</h1></td>
         </tr>
     </table>
     <div id = "photo-table">
@@ -61,7 +62,7 @@ Preserve this text for potential use later-->
             </thead>
             <tbody>
                 <tr>
-                    <td title="doTERRA Chandeliers" id ="doterra1"><a href = "http://www.doterra.com"> <img src="../pictures/Photo%20Table/Doterra1.jpg"><div class="hoverbox"></div><p class="hovertext">Doterra Initial Design</p></a></td>
+                    <td title="doTERRA Chandeliers" id ="doterra1"><a href = "http://www.doterra.com"> <img src="../pictures/Photo%20Table/Doterra1.jpg"><div class="hoverbox"><p class="hovertext">Doterra Initial Design</p></div></a></td>
                     <td title="Gilbert Baptistry" id="gilbert1"><a href = "https://www.lds.org/church/temples/gilbert-arizona?lang=eng"><img src="../pictures/Gilbert%20Light%20Fixture.jpg"><div class="hoverbox"></div><p class="hovertext">Gilbert Initial Design</p></a></td>
                     <td title="Payson, Utah Temple"><a href = "https://www.lds.org/church/temples/payson-utah?lang=eng"><img src="../pictures/Payson_Temple_Exterior_Inscription2015_resized.jpg"></a></td>
                     <td title="Thanksgiving Point Gardens"><a href = "http://www.thanksgivingpoint.org"><img src="../pictures/IMG_7858-500x500.jpg"></a></td>
@@ -71,7 +72,7 @@ Preserve this text for potential use later-->
                     <td title="doTERRA Chandeliers"> <a href = "http://www.doterra.com"><img src="../pictures/Photo%20Table/Doterra%20assembly.jpg"></a></td>
                     <td title="Gilbert Baptistry"><a href = "https://www.lds.org/church/temples/gilbert-arizona?lang=eng"><img src="../pictures/Gilbert%20Light%20Fixture%202.jpg"></a></td>
                     <td title="Suva, Fiji Temple"><a href = "https://www.lds.org/bc/content/church/temples/suva-fiji/images/suva-fiji-808x480-AV060324_cah046.jpg"><img src="../pictures/suva-fiji-808x480-AV060324_cah046.jpg"></a></td>
-                    <td title="Residential Chandelier"><img src="../pictures/residential-glass-chandelier-3.png"></td>
+                    <td title="Residential Chandelier"><a href="http://www.holdmanstudios.com"><img src="../pictures/residential-glass-chandelier-3.png"></a></td>
                     <td title="Young Living Platter"><a href = "https://www.youngliving.com/en_US"><img src="../pictures/Photo%20Table/glassblowing2.jpg"></a></td>
                 </tr>
                 <tr>
@@ -91,13 +92,18 @@ Preserve this text for potential use later-->
     <br> <br> <br>
     <h3 class = "title"> Stephen G. Clark</h3>
     <h3 class = "title"> Preservice Supervisor</h3>
-    <h3 class = "title"> Seminaries & Institutes of The Church of Jesus Christ of Latter Day Saints</h3>
+    <h3 class = "title"> Seminaries & Institutes of The Church of Jesus Christ of Latter-day Saints</h3>
 </div>
 <div id="middleRight">
 
 </div>
 <div id = "middle">
-    <div class="header"><h1 class="title"></h1></div>
+    <table class="header">
+        <tr>
+            <td><img src="../pictures/headers/school%20(5).png"></td>
+            <td><h1>Education</h1></td>
+        </tr>
+    </table>
     <div id = "educationPhotos">
         <table>
         <tr>
@@ -124,7 +130,12 @@ Preserve this text for potential use later-->
     <h3 class = "title"> Holdman Studios</h3>
 </div>
 <div id = "bottom">
-    <div class="header"><h1 class="title"></h1></div>
+    <table class="header">
+        <tr>
+            <td><img src="../pictures/headers/business%20(4).png"></td>
+            <td><h1>Work Experience</h1></td>
+        </tr>
+    </table>
     <div id="workPhotos">
         <table>
             <tr>
@@ -144,15 +155,15 @@ Preserve this text for potential use later-->
 </div>
 <div id = "clear-box">
     <div id = "contact">
+        <form id="textForm" method="post" action="Thanks.html">
+            <h3 style="font-family = Georgia">Contact me</h3><br>
+            <label for="name" style="font-family: Georgia;">Name </label> <input id="name" name="name"><br><br>
+            <label for="email" style="font-family: Georgia;">Email </label><input id="email" name="email"><br><br>
+            <p font-family="Georgia">Message</p>
+            <textarea cols="60" rows="10" maxlength="500"></textarea>
+            <input type="submit" value="Submit">
+        </form>
     </div>
-    <form id="textForm" method="post" action="Thanks.html">
-        <h3 style="font-family = Georgia">Contact me</h3><br>
-        <label for="name" style="font-family: Georgia;">Name </label> <input id="name" name="name"><br><br>
-        <label for="email" style="font-family: Georgia;">Email </label><input id="email" name="email"><br><br>
-        <p font-family="Georgia">Message</p>
-        <textarea cols="60" rows="10" maxlength="500"></textarea>
-        <input type="submit" value="Submit">
-    </form>
 </div>
 <div id = "footer">
     <a href="about.html"><p id="about"> About</p></a>

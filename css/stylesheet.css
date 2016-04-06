@@ -14,10 +14,6 @@ a#about {
 }
 #aboutMeText {
     position: absolute;
-    top: 22%;
-    left: 53.5%;
-    height: 45%;
-    width: 40%;
     font-family: Georgia, serif;
     text-align: center;
 }
@@ -29,18 +25,17 @@ a#about {
     position: absolute;
     height: 55%;
     width: 45%;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, .6);
     border-radius: 10px;
     top: 20%;
     left: 51%;
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
 }
 #bottom {
     height: 1000px;
     width: 100%;
     background-color: #faebd7;
     clear: both;
+    position: relative;
 }
 #bottomLeft {
     height: 800px;
@@ -75,10 +70,13 @@ a#about {
     position: absolute;
     height: 35%;
     width: 30%;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     top: 29%;
     left: 51%;
+}
+
+#contactIcon:hover {
     opacity: 0.6;
     -webkit-filter: opacity(.6);
 }
@@ -101,6 +99,10 @@ a#about {
      padding: 40px;
      margin: 40px;
  }
+#educationIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
 
 #footer {
     height: 60px;
@@ -123,39 +125,44 @@ a#about {
 }
 .header {
     position: absolute;
-    top: 2%;
-    left: 15%;
+    top: 4%;
+    left: 10.5%;
 
 }
-td.header{
 
-}
 .header h1 {
     text-decoration: none;
     font-family:Georgia, serif;
+    font-size: 40px;
 }
+
+.header img{
+    height: 100px;
+    width: 100px;
+}
+
+.header td {
+    padding: 0px 10px 0px 10px;
+}
+
 #home {
     position: relative;
 }
 
+#homeIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
 .hoverbox {
-    position: absolute;
     visibility: hidden;
-    height: 320px;
-    width: 320px;
-    top: 3.75%;
-    left: .1%;
+    height: 290px;
+    width: 290px;
     z-index: 1;
-    background-color: grey;
-    opacity: .6;
-    -webkit-filter: opacity(0.6);
+    background-color: rgba(255, 255, 255 .6);
 }
 .hovertext {
-    position: absolute;
     visibility: hidden;
     z-index: 2;
-    top: 18%;
-    left: 3.5%;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -168,6 +175,10 @@ html {
     background-size: cover;
 }
 
+#imagesIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
 
 #middle {
     height: 1000px;
@@ -209,71 +220,31 @@ html {
     top: 2%;
     z-index: 1;
 }
-/* #navbar ul li:first-child {
-    border-top: 1px #000000 solid;
-}  taking off border on navbar*/
 
 #navbar ul li {
     list-style-type: none;
-    /* border-bottom: 1px #000000 solid; */
-    margin: 8% 0% 8% 0%;
+    padding: 0px 5px 0px 5px;
     display: inline;
 }
 
-#navbar ul li a {
+.navbartext {
+    text-align: center;
     text-decoration: none;
-    color: #000000;
-    font-size: 1.5em;
-    font-family: Georgia, serif;
-}
-
-#homeIcon:hover {
-      opacity: 0.6;
-      -webkit-filter: opacity(.6);
-}
-
-#profileIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
-}
-
-#imagesIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
-}
-
-#educationIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
-}
-
-#workIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
-}
-
-#contactIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
-}
-
-#navbar h1{
-    text-align: center;
-}
-#navbar h3 {
-    text-align: center;
+    visibility: visible;
+    margin-left: -40px;
+    margin-bottom: -100px;
 }
 
 #photo-table img {
-    height: 320px;
-    width: 320px;
+    height: 290px;
+    width: 290px;
     margin-right: 3px;
     position: relative;
 }
 
 #photo-table {
-    left: 7.5%;
-    top: 15%;
+    left: 11%;
+    top: 16%;
     position: absolute;
     text-align: center;
 }
@@ -285,7 +256,10 @@ html {
     clear: both;
     position: relative;
 }
-
+#profileIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
 #social-media{
     position: absolute;
     bottom: 0px;
@@ -295,8 +269,8 @@ html {
 #textForm {
     text-align: left;
     position: absolute;
-    top: 33%;
-    left: 55%;
+    top: 10%;
+    left: 10%;
 }
 .title {
     font-family: Book Antiqua, serif;
@@ -304,9 +278,7 @@ html {
 #top-clear {
     height: 1000px;
     width: 100%;
-    background-color: #808080;
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+    background-color: rgba(128,128,128,0.4);
 }
 
 #top-left {
@@ -337,10 +309,15 @@ html {
     position: relative;
 }
 
+#workIcon:hover {
+    opacity: 0.6;
+    -webkit-filter: opacity(.6);
+}
 
 #workPhotos {
     position: absolute;
-    left: 5%;
+    left: 7%;
+    top: 10%;
     text-align: center;
 }
 #workPhotos img{
