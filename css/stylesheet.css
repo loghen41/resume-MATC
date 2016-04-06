@@ -76,9 +76,13 @@ a#about {
     left: 51%;
 }
 
-#contactIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+#contactIcon {
+    position: relative;
+    text-decoration: none;
+}
+
+#contactIcon:hover .navbartext {
+    visibility: visible;
 }
 
 #doterra1:hover .hovertext {
@@ -87,7 +91,17 @@ a#about {
 #doterra1:hover .hoverbox {
     visibility: visible;
 }
-
+#doterra2:hover .hovertext {
+    visibility: visible;
+}
+#doterra2:hover .hoverbox {
+    visibility: visible;
+}#doterra3:hover .hovertext {
+     visibility: visible;
+ }
+#doterra3:hover .hoverbox {
+    visibility: visible;
+}
 #educationPhotos {
     position:absolute;
     top: 12%;
@@ -99,11 +113,22 @@ a#about {
      padding: 40px;
      margin: 40px;
  }
-#educationIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+
+
+#educationIcon {
+    position: relative;
+    text-decoration: none;
 }
 
+#educationIcon:hover .navbartext {
+    visibility: visible;
+}
+#fiji:hover .hovertext {
+    visibility: visible;
+}
+#fiji:hover  .hoverbox{
+    visibility: visible;
+}
 #footer {
     height: 60px;
     width: 100%;
@@ -121,6 +146,18 @@ a#about {
     visibility: visible;
 }
 #gilbert1:hover .hoverbox {
+    visibility: visible;
+}
+#gilbert2:hover .hovertext {
+    visibility: visible;
+}
+#gilbert2:hover .hoverbox {
+    visibility: visible;
+}
+#gilbert3:hover .hovertext {
+    visibility: visible;
+}
+#gilbert3:hover .hoverbox {
     visibility: visible;
 }
 .header {
@@ -148,24 +185,34 @@ a#about {
 #home {
     position: relative;
 }
-
-#homeIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+#homeIcon {
+    position: relative;
+    text-decoration: none;
 }
+
+#homeIcon:hover .navbartext {
+    visibility: visible;
+}
+
+
 .hoverbox {
     visibility: hidden;
+    position: absolute;
     height: 290px;
     width: 290px;
+    top:0;
+    left:0;
     z-index: 1;
-    background-color: rgba(255, 255, 255 .6);
+    background-color: rgba(128, 128, 128, .6);
 }
 .hovertext {
     visibility: hidden;
+    position: absolute;
     z-index: 2;
     color: white;
+    top:40%;
+    left: 5%;
     font-size: 25px;
-    text-align: center;
 }
 html {
     background: url("../pictures/resized logan3.jpg") no-repeat center center fixed;
@@ -174,12 +221,26 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-
-#imagesIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+#hs1:hover .hovertext {
+    visibility: visible;
+}
+#hs1:hover .hoverbox {
+    visibility: visible;
+}
+#hs2:hover .hovertext {
+     visibility: visible;
+ }
+#hs2:hover  .hoverbox{
+    visibility: visible;
+}
+#imagesIcon {
+    position: relative;
+    text-decoration: none;
 }
 
+#imagesIcon:hover .navbartext {
+    visibility: visible;
+}
 #middle {
     height: 1000px;
     width: 100%;
@@ -221,20 +282,31 @@ html {
     z-index: 1;
 }
 
-#navbar ul li {
-    list-style-type: none;
+#navbar td{
     padding: 0px 5px 0px 5px;
-    display: inline;
+    max-height: 100px;
+    width: 50px;
 }
 
 .navbartext {
-    text-align: center;
     text-decoration: none;
-    visibility: visible;
-    margin-left: -40px;
-    margin-bottom: -100px;
+    font-family: Georgia,serif;
+    visibility: hidden;
+    position: relative;
+    text-align:center;
 }
-
+#payson:hover .hovertext {
+    visibility: visible;
+}
+#payson:hover  .hoverbox{
+    visibility: visible;
+}
+#paris:hover .hovertext {
+     visibility: visible;
+ }
+#paris:hover  .hoverbox{
+    visibility: visible;
+}
 #photo-table img {
     height: 290px;
     width: 290px;
@@ -248,7 +320,12 @@ html {
     position: absolute;
     text-align: center;
 }
-
+#photo-table table {
+    position: relative;
+}
+#photo-table table td {
+    position: relative;
+}
 #portfolio {
     height: 1100px;
     width: 100%;
@@ -256,9 +333,14 @@ html {
     clear: both;
     position: relative;
 }
-#profileIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+
+#educationIcon {
+    position: relative;
+    text-decoration: none;
+}
+
+#educationIcon:hover .navbartext {
+    visibility: visible;
 }
 #social-media{
     position: absolute;
@@ -308,12 +390,20 @@ html {
     clear: both;
     position: relative;
 }
-
-#workIcon:hover {
-    opacity: 0.6;
-    -webkit-filter: opacity(.6);
+#tpg:hover .hovertext {
+    visibility: visible;
+}
+#tpg:hover  .hoverbox{
+    visibility: visible;
+}
+#workIcon {
+    position: relative;
+    text-decoration: none;
 }
 
+#workIcon:hover .navbartext {
+    visibility: visible;
+}
 #workPhotos {
     position: absolute;
     left: 7%;
@@ -326,7 +416,23 @@ html {
     padding: 40px;
     margin: 40px;
 }
-
+#yl1:hover .hovertext {
+    visibility: visible;
+}
+#yl1:hover  .hoverbox{
+    visibility: visible;
+}
+#yl2:hover .hovertext {
+     visibility: visible;
+ }
+#yl2:hover  .hoverbox{
+    visibility: visible;
+}#yl3:hover .hovertext {
+     visibility: visible;
+ }
+#yl3:hover  .hoverbox{
+    visibility: visible;
+}
 * {
     margin: 0px;
     padding: 0px;
