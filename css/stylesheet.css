@@ -91,16 +91,44 @@ a#about {
 #doterra1:hover .hoverbox {
     visibility: visible;
 }
+
+#doterra1:hover .picture{
+    transform: scale(1.3);
+    height: 290px;
+    width: 290px;
+}
+#doterra1 {
+    height: 290px;
+    width: 290px;
+    overflow: hidden;
+}
 #doterra2:hover .hovertext {
     visibility: visible;
 }
 #doterra2:hover .hoverbox {
     visibility: visible;
-}#doterra3:hover .hovertext {
-     visibility: visible;
- }
+}
+#doterra2:hover .picture{
+    transform: scale(1.3);
+}
+#doterra2 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #doterra3:hover .hoverbox {
     visibility: visible;
+}
+#doterra3:hover .hovertext {
+    visibility: visible;
+}
+#doterra3:hover .picture{
+    transform: scale(1.3);
+}
+#doterra3 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
 }
 #educationPhotos {
     position:absolute;
@@ -126,8 +154,21 @@ a#about {
 #fiji:hover .hovertext {
     visibility: visible;
 }
-#fiji:hover  .hoverbox{
+#fiji:hover .hoverbox{
     visibility: visible;
+}
+#fiji:hover .picture{
+    transform: scale(1.3);
+}
+#fiji {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
+.flex-container {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    list-style-type: none;
 }
 #footer {
     height: 60px;
@@ -148,17 +189,41 @@ a#about {
 #gilbert1:hover .hoverbox {
     visibility: visible;
 }
+#gilbert1:hover .picture{
+    transform: scale(1.3);
+}
+#gilbert1 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #gilbert2:hover .hovertext {
     visibility: visible;
 }
 #gilbert2:hover .hoverbox {
     visibility: visible;
 }
+#gilbert2:hover .picture{
+    transform: scale(1.3);
+}
+#gilbert2 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #gilbert3:hover .hovertext {
     visibility: visible;
 }
 #gilbert3:hover .hoverbox {
     visibility: visible;
+}
+#gilbert3:hover .picture{
+    transform: scale(1.3);
+}
+#gilbert3 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
 }
 .header {
     position: absolute;
@@ -198,8 +263,8 @@ a#about {
 .hoverbox {
     visibility: hidden;
     position: absolute;
-    height: 290px;
-    width: 290px;
+    height: 295px;
+    width: 295px;
     top:0;
     left:0;
     z-index: 1;
@@ -227,11 +292,27 @@ html {
 #hs1:hover .hoverbox {
     visibility: visible;
 }
+#hs1:hover .picture{
+    transform: scale(1.3);
+}
+#hs1 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #hs2:hover .hovertext {
      visibility: visible;
  }
 #hs2:hover  .hoverbox{
     visibility: visible;
+}
+#hs2:hover .picture{
+    transform: scale(1.3);
+}
+#hs2 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
 }
 #imagesIcon {
     position: relative;
@@ -301,17 +382,34 @@ html {
 #payson:hover  .hoverbox{
     visibility: visible;
 }
+#payson:hover .picture{
+    transform: scale(1.3);
+}
+#payson {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #paris:hover .hovertext {
      visibility: visible;
  }
 #paris:hover  .hoverbox{
     visibility: visible;
 }
+#paris:hover .picture{
+    transform: scale(1.3);
+}
+#paris {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #photo-table img {
     height: 290px;
     width: 290px;
     margin-right: 3px;
     position: relative;
+
 }
 
 #photo-table {
@@ -325,6 +423,13 @@ html {
 }
 #photo-table table td {
     position: relative;
+}
+.picture {
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 #portfolio {
     height: 1100px;
@@ -396,6 +501,14 @@ html {
 #tpg:hover  .hoverbox{
     visibility: visible;
 }
+#tgp:hover .picture{
+    transform: scale(1.3);
+}
+#tgp {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #workIcon {
     position: relative;
     text-decoration: none;
@@ -422,16 +535,41 @@ html {
 #yl1:hover  .hoverbox{
     visibility: visible;
 }
+#yl1:hover .picture{
+    transform: scale(1.3);
+}
+#yl1 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #yl2:hover .hovertext {
      visibility: visible;
  }
 #yl2:hover  .hoverbox{
     visibility: visible;
-}#yl3:hover .hovertext {
-     visibility: visible;
- }
+}
+#yl2:hover .picture{
+    transform: scale(1.3);
+}
+#yl2 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+}
 #yl3:hover  .hoverbox{
     visibility: visible;
+}
+#yl3:hover .picture{
+    transform: scale(1.3);
+}
+#yl3:hover .hovertext {
+    visibility: visible;
+}
+#yl3 {
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
 }
 * {
     margin: 0px;
