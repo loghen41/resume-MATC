@@ -1,3 +1,704 @@
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    #photo-table td {
+        width: 40px;
+        height: 40px;
+    }
+
+    #photo-table a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #photo-table div {
+        width: 40px;
+        height: 40px;
+    }
+
+    div#portfolio {
+        height: 270px;
+    }
+
+    div#bottom {
+        height: 270px;
+    }
+
+    #workPhotos td img {
+        max-height: 50px;
+        max-width: 50px;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    div#middle {
+        height: 270px;
+    }
+
+    #educationPhotos td img {
+        max-height: 50px;
+        max-width: 50px;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    p.navbartext {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .header h1 {
+        font-size: 14px;
+    }
+
+    .header img {
+        height: 20px;
+        width: 20px;
+    }
+
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 50px;
+    }
+
+    #educationPhotos {
+        margin-top: 18px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    #photo-table td {
+        width: 60px;
+        height: 60px;
+    }
+    #photo-table a img {
+        width: 60px;
+        height: 60px;
+    }
+    #photo-table div{
+        width: 60px;
+        height: 60px;x;
+    }
+    div#portfolio {
+        height: 300px;
+    }
+    div#bottom {
+        height: 300px;
+    }
+    #workPhotos td img {
+        max-height: 60px;
+        max-width: 60px;
+        padding: 7px;
+        margin: 7px;
+    }
+    div#middle {
+        height: 300px;
+    }
+
+    #educationPhotos td img {
+        max-height: 60px;
+        max-width: 60px;
+        padding: 7px;
+        margin: 7px;
+    }
+    p.navbartext {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 40px;
+        width: 40px;
+    }
+
+    #photo-table {
+        margin-top: 30px;
+    }
+
+    #workPhotos {
+        margin-top: 70px;
+    }
+    #educationPhotos {
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    #photo-table td {
+        width: 80px;
+        height: 80px;
+    }
+    #photo-table a img {
+        width: 80px;
+        height: 80px;
+    }
+    #photo-table div{
+        width: 80px;
+        height: 80px;
+    }
+    div#portfolio {
+        height: 350px;
+    }
+    div#bottom {
+        height: 350px;
+    }
+    #workPhotos td img {
+        max-height: 80px;
+        max-width: 80px;
+        padding: 11px;
+        margin: 11px;
+    }
+    div#middle {
+        height: 350px;
+    }
+
+    #educationPhotos td img {
+        max-height: 80px;
+        max-width: 80px;
+        padding: 11px;
+        margin: 11px;
+    }
+    p.navbartext {
+        font-size: 12px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 50px;
+    }
+    #educationPhotos {
+        margin-top: 18px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 50px;
+        width: 50px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    #photo-table td {
+        width: 90px;
+        height: 90px;
+    }
+    #photo-table a img {
+        width: 90px;
+        height: 90px;
+    }
+    #photo-table div{
+        width: 90px;
+        height: 90px;
+    }
+    div#portfolio {
+        height: 400px;
+    }
+    div#bottom {
+        height: 400px;
+    }
+    #workPhotos td img {
+        max-height: 80px;
+        max-width: 80px;
+        padding: 15px;
+        margin: 15px;
+    }
+    div#middle {
+        height: 400px;
+    }
+
+    #educationPhotos td img {
+        max-height: 90px;
+        max-width: 90px;
+        padding: 15px;
+        margin: 15px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 18px;
+    }
+    #educationPhotos {
+        margin-top: 18px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #photo-table td {
+        width: 110px;
+        height: 110px;
+    }
+    #photo-table a img {
+        width: 110px;
+        height: 110px;
+    }
+    #photo-table div{
+        width: 110px;
+        height: 110px;
+    }
+    div#portfolio {
+        height: 450px;
+    }
+    div#bottom {
+        height: 450px;
+    }
+    #workPhotos td img {
+        max-height: 90px;
+        max-width: 90px;
+        padding: 19px;
+        margin: 19px;
+    }
+    div#middle {
+        height: 450px;
+    }
+
+    #educationPhotos td img {
+        max-height: 110px;
+        max-width: 110px;
+        padding: 19px;
+        margin: 19px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 18px;
+    }
+    #educationPhotos {
+        margin-top: 18px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    #photo-table td {
+        width: 130px;
+        height: 130px;
+    }
+    #photo-table a img {
+        width: 130px;
+        height: 130px;
+    }
+    #photo-table div{
+        width: 130px;
+        height: 130px;
+    }
+    div#portfolio {
+        height: 550px;
+    }
+    div#bottom {
+        height: 550px;
+    }
+    #workPhotos td img {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 23px;
+        margin: 23px;
+    }
+    div#middle {
+        height: 550px;
+    }
+
+    #educationPhotos td img {
+        max-height: 130px;
+        max-width: 130px;
+        padding: 23px;
+        margin: 23px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    #photo-table {
+         margin-top: 18px;
+     }
+
+    #workPhotos {
+        margin-top: 18px;
+    }
+    #educationPhotos {
+        margin-top: 18px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+    #photo-table td {
+        width: 150px;
+        height: 150px;
+    }
+    #photo-table a img {
+        width: 150px;
+        height: 150px;
+    }
+    #photo-table div{
+        width: 150px;
+        height: 150px;
+    }
+    div#portfolio {
+        height: 600px;
+    }
+    div#bottom {
+        height: 600px;
+    }
+    #workPhotos td img {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 25px;
+        margin: 25px;
+    }
+    div#middle {
+        height: 625px;
+    }
+
+    #educationPhotos td img {
+        max-height: 150px;
+        max-width: 150px;
+        padding: 27px;
+        margin: 27px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 18px;
+    }
+    #educationPhotos {
+        margin-top: 18px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    #photo-table td {
+        width: 160px;
+        height: 160px;
+    }
+    #photo-table a img {
+        width: 160px;
+        height: 160px;
+    }
+    #photo-table div{
+        width: 160px;
+        height: 160px;
+    }
+    div#portfolio {
+        height: 650px;
+    }
+    div#bottom {
+        height: 625px;
+    }
+    #workPhotos td img {
+        max-height: 150px;
+        max-width: 150px;
+        padding: 25px;
+        margin: 25px;
+    }
+    div#middle {
+        height: 625px;
+    }
+
+    #educationPhotos td img {
+        max-height: 160px;
+        max-width: 160px;
+        padding: 31px;
+        margin: 31px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 5px;
+    }
+    #educationPhotos {
+        margin-top: 5px;
+    }
+    .header td p {
+        font-size: 5px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    #photo-table td {
+        width: 180px;
+        height: 180px;
+    }
+    #photo-table a img {
+        width: 180px;
+        height: 180px;
+    }
+    #photo-table div{
+        width: 180px;
+        height: 180px;
+    }
+    div#portfolio {
+        height: 900px;
+    }
+    div#bottom {
+        height: 800px;
+    }
+    #workPhotos td img {
+        max-height: 170px;
+        max-width: 170px;
+        padding: 20px;
+        margin: 20px;
+    }
+    div#middle {
+        height: 850px;
+    }
+
+    #educationPhotos td img {
+        max-height: 180px;
+        max-width: 180px;
+        padding: 35px;
+        margin: 35px;
+    }
+    p.navbartext {
+        font-size: 14px;
+    }
+    p {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+    #photo-table {
+        margin-top: 18px;
+    }
+
+    #workPhotos {
+        margin-top: 5px;
+    }
+    #educationPhotos {
+        margin-top: 5px;
+    }
+    .header td p {
+        font-size: 5px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    #photo-table td {
+        width: 190px;
+        height: 190px;
+    }
+    #photo-table a img {
+        width: 190px;
+        height: 190px;
+    }
+    #photo-table div{
+        width: 190px;
+        height: 190px;
+    }
+    div#portfolio {
+        height: 775px;
+    }
+    div#bottom {
+        height: 775px;
+    }
+    #workPhotos td img {
+        max-height: 180px;
+        max-width: 180px;
+        padding: 25px;
+        margin: 25px;
+    }
+    div#middle {
+        height: 775px;
+    }
+
+    #educationPhotos td img {
+        max-height: 190px;
+        max-width: 190px;
+        padding: 39px;
+        margin: 39px;
+    }
+    p.navbartext {
+        font-size: 18px;
+    }
+    p {
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .header td p {
+        font-size: 5px;
+    }
+
+    .header td img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    #photo-table td {
+        width: 210px;
+        height: 210px;
+    }
+    #photo-table a img {
+        width: 210px;
+        height: 210px;
+    }
+    #photo-table div{
+        width: 210px;
+        height: 210px;
+    }
+    div#portfolio {
+        height: 900px;
+    }
+    div#bottom {
+           height: 825px;
+       }
+    #workPhotos td img {
+        max-height: 190px;
+        max-width: 190px;
+        padding: 25px;
+        margin: 25px;
+    }
+    div#middle {
+        height: 825px;
+    }
+
+    #educationPhotos td img {
+        max-height: 210px;
+        max-width: 210px;
+        padding: 40px;
+        margin: 40px;
+    }
+    p.navbartext {
+        font-size: 18px;
+    }
+    p {
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+    .header td p {
+        font-size: 12px;
+    }
+
+    .header td img{
+        height: 80px;
+        width: 80px;
+    }
+}
 #about {
     position: absolute;
     bottom: 18px;
@@ -94,12 +795,10 @@ a#about {
 
 #doterra1:hover .picture{
     transform: scale(1.3);
-    height: 290px;
-    width: 290px;
 }
 #doterra1 {
-    height: 290px;
-    width: 290px;
+    height: 285px;
+    width: 285px;
     overflow: hidden;
 }
 #doterra2:hover .hovertext {
@@ -136,7 +835,8 @@ a#about {
     left: 15%;
     text-align: center;
 }
-#educationPhotos img{     max-height: 275px;
+#educationPhotos img{
+     max-height: 275px;
      max-width:275px;
      padding: 40px;
      margin: 40px;
@@ -433,10 +1133,11 @@ html {
 }
 #portfolio {
     height: 1100px;
-    width: 100%;
     background-color: #faebd7;
     clear: both;
     position: relative;
+    display: block;
+
 }
 
 #educationIcon {
@@ -452,6 +1153,7 @@ html {
     bottom: 0px;
     right: 5px;
 }
+
 
 #textForm {
     text-align: left;
@@ -495,10 +1197,10 @@ html {
     clear: both;
     position: relative;
 }
-#tpg:hover .hovertext {
+#tgp:hover .hovertext {
     visibility: visible;
 }
-#tpg:hover  .hoverbox{
+#tgp:hover  .hoverbox{
     visibility: visible;
 }
 #tgp:hover .picture{
