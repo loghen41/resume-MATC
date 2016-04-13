@@ -72,6 +72,46 @@
     #educationPhotos {
         margin-top: 18px;
     }
+    div#aboutMeText p {
+        font-size: 12px;
+    }
+    div#aboutMeText h1 {
+        font-size: 14px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 275px;
+    }
+    div#middleRight {
+        height: 275px;
+    }
+    div#bottomLeft {
+        height: 250px;
+    }
+    div#bottomRight {
+        height: 250px;
+    }
+    div#clear-box {
+        height: 550px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 @media screen and (min-width: 400px) and (max-width: 500px) {
     #photo-table td {
@@ -137,6 +177,47 @@
     #educationPhotos {
         margin-top: 30px;
     }
+
+    div#aboutMeText p {
+        font-size: 12px;
+    }
+    div#aboutMeText h1 {
+        font-size: 14px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 275px;
+    }
+    div#middleRight {
+        height: 275px;
+    }
+    div#bottomLeft {
+        height: 250px;
+    }
+    div#bottomRight {
+        height: 250px;
+    }
+    div#clear-box {
+        height: 550px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+   form {
+       width: 100px;
+   }
+   textarea {
+       width: 125px;
+   }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
     #photo-table td {
@@ -200,6 +281,43 @@
     .header td img{
         height: 50px;
         width: 50px;
+    }
+    div#aboutMeText p {
+        font-size: 14px;
+    }
+    div#aboutMeText h1 {
+        font-size: 22px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 425px;
+    }
+    div#middleRight {
+        height: 425px;
+    }
+    div#bottomLeft {
+        height: 325px;
+    }
+    div#bottomRight {
+        height: 325px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
     }
 
 }
@@ -266,6 +384,43 @@
         height: 50px;
         width: 50px;
     }
+    div#aboutMeText p {
+        font-size: 15px;
+    }
+    div#aboutMeText h1 {
+        font-size: 26px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 425px;
+    }
+    div#middleRight {
+        height: 425px;
+    }
+    div#bottomLeft {
+        height: 325px;
+    }
+    div#bottomRight {
+        height: 325px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 @media screen and (min-width: 700px) and (max-width: 800px) {
     #photo-table td {
@@ -329,6 +484,43 @@
     .header td img{
         height: 60px;
         width: 60px;
+    }
+    div#aboutMeText p {
+        font-size: 16px;
+    }
+    div#aboutMeText h1 {
+        font-size: 28px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 450px;
+    }
+    div#middleRight {
+        height: 450px;
+    }
+    div#bottomLeft {
+        height: 350px;
+    }
+    div#bottomRight {
+        height: 350px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 900px) {
@@ -394,6 +586,43 @@
         height: 60px;
         width: 60px;
     }
+    div#aboutMeText p {
+        font-size: 16px;
+    }
+    div#aboutMeText h1 {
+        font-size: 28px;
+    }
+    div#aboutMeBox {
+        height: 300px;
+    }
+    div#top-clear {
+        height: 400px;
+    }
+    div#middleLeft {
+        height: 550px;
+    }
+    div#middleRight {
+        height: 550px;
+    }
+    div#bottomLeft {
+        height: 450px;
+    }
+    div#bottomRight {
+        height: 450px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 @media screen and (min-width: 900px) and (max-width: 1000px) {
     #photo-table td {
@@ -457,6 +686,40 @@
     .header td img{
         height: 60px;
         width: 60px;
+    }
+    div#aboutMeText p {
+        font-size: 24px;
+    }
+    div#aboutMeBox {
+        height: 440px;
+    }
+    div#top-clear {
+        height: 650px;
+    }
+    div#middleLeft {
+        height: 550px;
+    }
+    div#middleRight {
+        height: 550px;
+    }
+    div#bottomLeft {
+        height: 450px;
+    }
+    div#bottomRight {
+        height: 450px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
     }
 }
 @media screen and (min-width: 1000px) and (max-width: 1100px) {
@@ -522,6 +785,31 @@
         height: 60px;
         width: 60px;
     }
+    div#middleLeft {
+        height: 550px;
+    }
+    div#middleRight {
+        height: 550px;
+    }
+    div#bottomLeft {
+        height: 450px;
+    }
+    div#bottomRight {
+        height: 450px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 @media screen and (min-width: 1100px) and (max-width: 1200px) {
     #photo-table td {
@@ -586,6 +874,31 @@
         height: 60px;
         width: 60px;
     }
+    div#middleLeft {
+        height: 600px;
+    }
+    div#middleRight {
+        height: 600px;
+    }
+    div#bottomLeft {
+        height: 525px;
+    }
+    div#bottomRight {
+        height: 525px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
     #photo-table td {
@@ -641,6 +954,31 @@
     .header td img{
         height: 60px;
         width: 60px;
+    }
+    div#middleLeft {
+        height: 600px;
+    }
+    div#middleRight {
+        height: 600px;
+    }
+    div#bottomLeft {
+        height: 525px;
+    }
+    div#bottomRight {
+        height: 525px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
     }
 }
 
@@ -698,6 +1036,31 @@
         height: 80px;
         width: 80px;
     }
+    div#middleLeft {
+        height: 600px;
+    }
+    div#middleRight {
+        height: 600px;
+    }
+    div#bottomLeft {
+        height: 525px;
+    }
+    div#bottomRight {
+        height: 525px;
+    }
+    div#contact {
+        height: 375px;
+        width: 175px;
+    }
+    label {
+        font-size: 12px;
+    }
+    form {
+        width: 100px;
+    }
+    textarea {
+        width: 125px;
+    }
 }
 #about {
     position: absolute;
@@ -717,10 +1080,14 @@ a#about {
     position: absolute;
     font-family: Georgia, serif;
     text-align: center;
+    margin-top: 10%;
 }
 
 #aboutMeText p {
-    font-size: 30px
+    font-size: 30px;
+}
+#aboutMeText h1 {
+    font-size: 45px;
 }
 #aboutMeBox {
     position: absolute;
@@ -760,6 +1127,9 @@ a#about {
     margin: 0% 3% 0% 3%;
 }
 
+.bottomRightText {
+    margin-top: 20%;
+}
 #clear-box {
     position:relative;
     height: 1000px;
@@ -1051,10 +1421,9 @@ html {
     margin: 0% 3% 0% 3%;
 }
 
-#middle-right p {
-    margin: 22% 10% 0% 10%;
+.middleLeftText {
+    margin-top: 14%;
 }
-
 #navbar {
     position: fixed;
     text-align: center;
