@@ -187,16 +187,21 @@ Preserve this text for potential use later-->
     <div id = "contact">
         <form id="textForm" method="post" action="Thanks.html">
             <h3 style= "font-family: Georgia">Contact me</h3><br>
-            <label for="name" style="font-family: Georgia;">Name: </label> <input id="name" name="name"><br><br>
-            <label for="email" style="font-family: Georgia;">Email: </label><input id="email" name="email"><br><br>
+            <label for="name" style="font-family: Georgia;">Name: </label> <input id="name" name="name" required placeholder="name"><br><br>
+            <label for="email" style="font-family: Georgia;">Email: </label><input id="email" name="email" required placeholder="email"><br><br>
             <p font-family="Georgia">Message</p>
-            <textarea cols="60" rows="10" maxlength="500"></textarea>
+            <textarea cols="60" rows="10" maxlength="500" required placeholder="500 Characters Maximum"></textarea>
+            <br>
+            <label for="emaillist">Subscribe to my Email List</label>
+            <input type="checkbox" id="emaillist" checked>
+            <br>
             <input type="submit" value="Submit">
         </form>
     </div>
 </div>
 <div id = "footer">
     <a href="about.html"><p id="about"> About</p></a>
+    <a href="Sitemap.html"><p id="sitemap"> Sitemap</p></a>
     <ul id = "social-media">
         <li><a href = "http://www.facebook.com"><img alt="Icon for Facebook" src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/facebook-48.png"></a></li>
         <li><a href = "http://www.twitter.com"> <img alt="Work Image for Twitter" src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/twitter1-48.png"></a></li>

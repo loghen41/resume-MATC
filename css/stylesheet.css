@@ -10,10 +10,12 @@
     }
 
     #photo-table div {
-        width: 40px;
-        height: 40px;
+        width: 43px;
+        height: 43px;
     }
-
+    p.hovertext {
+        font-size: 8px;
+    }
     div#portfolio {
         height: 270px;
     }
@@ -81,6 +83,18 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 12px;
+    }
+    div#aboutText h1 {
+        font-size: 14px;
+    }
+    div#aboutBox {
+        height: 400px;
+    }
+    #aboutBox div {
+        font-size: 12px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -123,8 +137,11 @@
         height: 60px;
     }
     #photo-table div{
-        width: 60px;
-        height: 60px;x;
+        width: 64px;
+        height: 64px;
+    }
+    p.hovertext {
+        font-size: 8px;
     }
     div#portfolio {
         height: 300px;
@@ -187,6 +204,18 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 12px;
+    }
+    div#aboutText h1 {
+        font-size: 14px;
+    }
+    div#aboutBox {
+        height: 400px;
+    }
+    #aboutBox div {
+        font-size: 12px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -212,12 +241,17 @@
     label {
         font-size: 12px;
     }
-   form {
+    form {
        width: 100px;
-   }
-   textarea {
+    }
+    textarea {
        width: 125px;
-   }
+    }
+
+    p#thanksText {
+        font-size: 8px;
+    }
+
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
     #photo-table td {
@@ -229,8 +263,11 @@
         height: 80px;
     }
     #photo-table div{
-        width: 80px;
-        height: 80px;
+        width: 84px;
+        height: 84px;
+    }
+    p.hovertext {
+        font-size: 11px;
     }
     div#portfolio {
         height: 350px;
@@ -291,6 +328,18 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 13px;
+    }
+    div#aboutText h1 {
+        font-size: 14px;
+    }
+    div#aboutBox {
+        height: 400px;
+    }
+    #aboutBox div {
+        font-size: 13px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -334,8 +383,11 @@
         height: 90px;
     }
     #photo-table div{
-        width: 90px;
-        height: 90px;
+        width: 94px;
+        height: 94px;
+    }
+    p.hovertext {
+        font-size: 13px;
     }
     div#portfolio {
         height: 400px;
@@ -396,6 +448,15 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 14px;
+    }
+    div#aboutBox {
+        height: 400px;
+    }
+    #aboutBox div {
+        font-size: 14px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -438,11 +499,14 @@
         height: 110px;
     }
     #photo-table div{
-        width: 110px;
-        height: 110px;
+        width: 114px;
+        height: 114px;
+    }
+    p.hovertext {
+        font-size: 14px;
     }
     div#portfolio {
-        height: 450px;
+        height: 475px;
     }
     div#bottom {
         height: 450px;
@@ -500,6 +564,15 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 14px;
+    }
+    div#aboutBox {
+        height: 400px;
+    }
+    #aboutBox div {
+        font-size: 14px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -542,8 +615,11 @@
         height: 130px;
     }
     #photo-table div{
-        width: 130px;
-        height: 130px;
+        width: 134px;
+        height: 134px;
+    }
+    p.hovertext {
+        font-size: 16px;
     }
     div#portfolio {
         height: 550px;
@@ -604,6 +680,15 @@
     div#aboutMeBox {
         height: 300px;
     }
+    div#aboutText p {
+        font-size: 16px;
+    }
+    div#aboutBox {
+        height: 450px;
+    }
+    #aboutBox div {
+        font-size: 16px;
+    }
     div#top-clear {
         height: 400px;
     }
@@ -638,22 +723,24 @@
 }
 @media screen and (min-width: 900px) and (max-width: 1000px) {
     #photo-table td {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
     }
 
     #photo-table a img {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
     }
 
     #photo-table div {
-        width: 150px;
-        height: 150px;
+        width: 144px;
+        height: 144px;
     }
-
+    p.hovertext {
+        font-size: 18px;
+    }
     div#portfolio {
-        height: 600px;
+        height: 625px;
     }
 
     div#bottom {
@@ -719,6 +806,16 @@
         height: 440px;
     }
 
+    div#aboutText p {
+        font-size: 18px;
+    }
+    div#aboutBox {
+        height: 475px;
+    }
+    #aboutBox div {
+        font-size: 18px;
+    }
+
     div#top-clear {
         height: 650px;
     }
@@ -772,10 +869,12 @@
     }
 
     #photo-table div {
-        width: 160px;
-        height: 160px;
+        width: 164px;
+        height: 164px;
     }
-
+    p.hovertext {
+        font-size: 20px;
+    }
     div#portfolio {
         height: 650px;
     }
@@ -800,6 +899,7 @@
         max-width: 160px;
         padding: 31px;
         margin: 31px;
+        margin-left: 10%;
     }
 
     p.navbartext {
@@ -813,7 +913,15 @@
     h3 {
         font-size: 28px;
     }
-
+    div#aboutText p {
+        font-size: 18px;
+    }
+    div#aboutBox {
+        height: 475px;
+    }
+    #aboutBox div {
+        font-size: 18px;
+    }
     #photo-table {
         margin-top: 18px;
     }
@@ -882,14 +990,17 @@
         height: 180px;
     }
     #photo-table div{
-        width: 180px;
-        height: 180px;
+        width: 184px;
+        height: 184px;
+    }
+    p.hovertext {
+        font-size: 22px;
     }
     div#portfolio {
-        height: 900px;
+        height: 775px;
     }
     div#bottom {
-        height: 800px;
+        height: 750px;
     }
     #workPhotos td img {
         max-height: 170px;
@@ -898,9 +1009,17 @@
         margin: 20px;
     }
     div#middle {
-        height: 850px;
+        height: 775px;
     }
-
+    div#aboutText p {
+        font-size: 20px;
+    }
+    div#aboutBox {
+        height: 500px;
+    }
+    #aboutBox div {
+        font-size: 20px;
+    }
     #educationPhotos td img {
         max-height: 160px;
         max-width: 160px;
@@ -978,8 +1097,11 @@
         height: 190px;
     }
     #photo-table div{
-        width: 190px;
-        height: 190px;
+        width: 194px;
+        height: 194px;
+    }
+    p.hovertext {
+        font-size: 23px;
     }
     div#portfolio {
         height: 775px;
@@ -996,7 +1118,15 @@
     div#middle {
         height: 775px;
     }
-
+    div#aboutText p {
+        font-size: 22px;
+    }
+    div#aboutBox {
+        height: 600px;
+    }
+    #aboutBox div {
+        font-size: 22px;
+    }
     #educationPhotos td img {
         max-height: 190px;
         max-width: 190px;
@@ -1070,6 +1200,9 @@
         width: 210px;
         height: 210px;
     }
+    p.hovertext {
+        font-size: 25px;
+    }
     div#portfolio {
         height: 900px;
     }
@@ -1085,7 +1218,15 @@
     div#middle {
         height: 825px;
     }
-
+    div#aboutText p {
+        font-size: 25px;
+    }
+    div#aboutBox {
+        height: 650px;
+    }
+    #aboutBox div {
+        font-size: 25px;
+    }
     #educationPhotos td img {
         max-height: 210px;
         max-width: 210px;
@@ -1144,6 +1285,7 @@
         height: 700px;
     }
 }
+
 #about {
     position: absolute;
     bottom: 18px;
@@ -1153,6 +1295,7 @@ p#about {
     list-style-type: none;
     font-family: Georgia, serif;
     font-size: 20px;
+    color: #000000;
 }
 
 a#about {
@@ -1178,6 +1321,28 @@ a#about {
     background-color: rgba(255, 255, 255, .6);
     border-radius: 10px;
     top: 20%;
+    left: 51%;
+}
+#aboutText {
+    position: absolute;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#aboutText p {
+    font-size: 30px;
+}
+#aboutText h1 {
+    font-size: 45px;
+}
+#aboutBox {
+    position: absolute;
+    height: 650px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 10px;
+    top: 15%;
     left: 51%;
 }
 #bottom {
@@ -1326,13 +1491,26 @@ a#about {
     height: 60px;
     width: 100%;
     background-color: #ffffff;
-    clear: both;
     position: relative;
+    clear: both;
+
 }
 
 #footer ul li{
     list-style-type: none;
     display: inline;
+}
+#footer-about ul li{
+    list-style-type: none;
+    display: inline;
+}
+#footer-about {
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
 }
 
 #gilbert1:hover .hovertext {
@@ -1599,12 +1777,54 @@ html {
 #educationIcon:hover .navbartext {
     visibility: visible;
 }
+#sitemap {
+    position: absolute;
+    bottom: 18px;
+    left: 90px;
+}
+
+p#sitemap {
+    list-style-type: none;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #000000;
+}
+.sitemapText{
+    position: relative;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.sitemapText a{
+    color: black;
+    text-decoration: none;
+}
 #social-media{
     position: absolute;
     bottom: 0px;
     right: 5px;
 }
 
+p#thanksText {
+     position: absolute;
+     font-family: Georgia, serif;
+     text-align: center;
+     margin-top: 35%;
+    font-size: 30px;
+ }
+
+div#thanksBox {
+    position: absolute;
+    height: 700px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 10px;
+    top: 15%;
+    left: 51%;
+}
 
 #textForm {
     text-align: left;
