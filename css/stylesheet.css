@@ -239,8 +239,8 @@
         height: 350px;
     }
     #workPhotos td img {
-        max-height: 80px;
-        max-width: 80px;
+        max-height: 70px;
+        max-width: 70px;
         padding: 11px;
         margin: 11px;
     }
@@ -307,17 +307,20 @@
         height: 325px;
     }
     div#contact {
-        height: 375px;
-        width: 175px;
+        height: 400px;
+        width: 200px;
     }
     label {
         font-size: 12px;
     }
     form {
-        width: 100px;
+        width: 150px;
     }
     textarea {
-        width: 125px;
+        width: 150px;
+    }
+    div#clear-box {
+        height: 600px;
     }
 
 }
@@ -341,8 +344,8 @@
         height: 400px;
     }
     #workPhotos td img {
-        max-height: 80px;
-        max-width: 80px;
+        max-height: 70px;
+        max-width: 70px;
         padding: 15px;
         margin: 15px;
     }
@@ -409,17 +412,20 @@
         height: 325px;
     }
     div#contact {
-        height: 375px;
-        width: 175px;
+        height: 400px;
+        width: 200px;
     }
     label {
         font-size: 12px;
     }
     form {
-        width: 100px;
+        width: 150px;
     }
     textarea {
-        width: 125px;
+        width: 150px;
+    }
+    div#clear-box {
+        height: 600px;
     }
 }
 @media screen and (min-width: 700px) and (max-width: 800px) {
@@ -442,8 +448,8 @@
         height: 450px;
     }
     #workPhotos td img {
-        max-height: 90px;
-        max-width: 90px;
+        max-height: 85px;
+        max-width: 85px;
         padding: 19px;
         margin: 19px;
     }
@@ -511,16 +517,19 @@
     }
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 300px;
     }
     label {
-        font-size: 12px;
+        font-size: 16px;
     }
     form {
-        width: 100px;
+        width: 250px;
     }
     textarea {
-        width: 125px;
+        width: 200px;
+    }
+    div#clear-box {
+        height: 600px;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 900px) {
@@ -612,16 +621,19 @@
     }
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 325px;
     }
     label {
-        font-size: 12px;
+        font-size: 16px;
     }
     form {
-        width: 100px;
+        width: 250px;
     }
     textarea {
-        width: 125px;
+        width: 250px;
+    }
+    div#clear-box {
+        height: 600px;
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1000px) {
@@ -629,26 +641,32 @@
         width: 150px;
         height: 150px;
     }
+
     #photo-table a img {
         width: 150px;
         height: 150px;
     }
-    #photo-table div{
+
+    #photo-table div {
         width: 150px;
         height: 150px;
     }
+
     div#portfolio {
         height: 600px;
     }
+
     div#bottom {
         height: 600px;
     }
+
     #workPhotos td img {
         max-height: 100px;
         max-width: 100px;
         padding: 25px;
         margin: 25px;
     }
+
     div#middle {
         height: 625px;
     }
@@ -659,9 +677,11 @@
         padding: 27px;
         margin: 27px;
     }
+
     p.navbartext {
         font-size: 14px;
     }
+
     p {
         font-size: 24px;
     }
@@ -669,6 +689,7 @@
     h3 {
         font-size: 28px;
     }
+
     #photo-table {
         margin-top: 18px;
     }
@@ -676,50 +697,67 @@
     #workPhotos {
         margin-top: 18px;
     }
+
     #educationPhotos {
         margin-top: 18px;
     }
+
     .header td p {
         font-size: 12px;
     }
 
-    .header td img{
+    .header td img {
         height: 60px;
         width: 60px;
     }
+
     div#aboutMeText p {
         font-size: 24px;
     }
+
     div#aboutMeBox {
         height: 440px;
     }
+
     div#top-clear {
         height: 650px;
     }
+
     div#middleLeft {
         height: 550px;
     }
+
     div#middleRight {
         height: 550px;
     }
+
     div#bottomLeft {
         height: 450px;
     }
+
     div#bottomRight {
         height: 450px;
     }
+
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 400px;
     }
+
     label {
-        font-size: 12px;
+        font-size: 18px;
     }
+
     form {
-        width: 100px;
+        width: 250px;
     }
+
     textarea {
-        width: 125px;
+        width: 325px;
+    }
+
+    div#clear-box {
+        height: 600px;
     }
 }
 @media screen and (min-width: 1000px) and (max-width: 1100px) {
@@ -727,26 +765,32 @@
         width: 160px;
         height: 160px;
     }
+
     #photo-table a img {
         width: 160px;
         height: 160px;
     }
-    #photo-table div{
+
+    #photo-table div {
         width: 160px;
         height: 160px;
     }
+
     div#portfolio {
         height: 650px;
     }
+
     div#bottom {
         height: 625px;
     }
+
     #workPhotos td img {
-        max-height: 150px;
-        max-width: 150px;
+        max-height: 125px;
+        max-width: 125px;
         padding: 25px;
         margin: 25px;
     }
+
     div#middle {
         height: 625px;
     }
@@ -757,9 +801,11 @@
         padding: 31px;
         margin: 31px;
     }
+
     p.navbartext {
         font-size: 14px;
     }
+
     p {
         font-size: 24px;
     }
@@ -767,6 +813,7 @@
     h3 {
         font-size: 28px;
     }
+
     #photo-table {
         margin-top: 18px;
     }
@@ -774,41 +821,55 @@
     #workPhotos {
         margin-top: 5px;
     }
+
     #educationPhotos {
         margin-top: 5px;
     }
+
     .header td p {
         font-size: 5px;
     }
 
-    .header td img{
+    .header td img {
         height: 60px;
         width: 60px;
     }
+
     div#middleLeft {
         height: 550px;
     }
+
     div#middleRight {
         height: 550px;
     }
+
     div#bottomLeft {
         height: 450px;
     }
+
     div#bottomRight {
         height: 450px;
     }
+
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 400px;
     }
+
     label {
-        font-size: 12px;
+        font-size: 18px;
     }
+
     form {
-        width: 100px;
+        width: 250px;
     }
+
     textarea {
-        width: 125px;
+        width: 325px;
+    }
+
+    div#clear-box {
+        height: 700px;
     }
 }
 @media screen and (min-width: 1100px) and (max-width: 1200px) {
@@ -841,8 +902,8 @@
     }
 
     #educationPhotos td img {
-        max-height: 180px;
-        max-width: 180px;
+        max-height: 160px;
+        max-width: 160px;
         padding: 35px;
         margin: 35px;
     }
@@ -888,16 +949,23 @@
     }
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 400px;
     }
+
     label {
-        font-size: 12px;
+        font-size: 18px;
     }
+
     form {
-        width: 100px;
+        width: 250px;
     }
+
     textarea {
-        width: 125px;
+        width: 325px;
+    }
+
+    div#clear-box {
+        height: 700px;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -969,16 +1037,23 @@
     }
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 450px;
     }
+
     label {
-        font-size: 12px;
+        font-size: 18px;
     }
+
     form {
-        width: 100px;
+        width: 250px;
     }
+
     textarea {
-        width: 125px;
+        width: 375px;
+    }
+
+    div#clear-box {
+        height: 700px;
     }
 }
 
@@ -1050,16 +1125,23 @@
     }
     div#contact {
         height: 375px;
-        width: 175px;
+        width: 475px;
     }
+
     label {
-        font-size: 12px;
+        font-size: 18px;
     }
+
     form {
-        width: 100px;
+        width: 250px;
     }
+
     textarea {
-        width: 125px;
+        width: 375px;
+    }
+
+    div#clear-box {
+        height: 700px;
     }
 }
 #about {
