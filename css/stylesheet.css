@@ -1468,6 +1468,23 @@ a#about {
 #educationIcon:hover .navbartext {
     visibility: visible;
 }
+#feedback {
+    position: absolute;
+    bottom: 18px;
+    left: 180px;
+}
+
+p#feedback {
+    list-style-type: none;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #000000;
+}
+#feedbackForm {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
 #fiji:hover .hovertext {
     visibility: visible;
 }
@@ -1798,10 +1815,10 @@ p#sitemap {
     margin-left: 3%;
 }
 
-.sitemapText a{
+/* .sitemapText a{
     color: black;
     text-decoration: none;
-}
+} */
 #social-media{
     position: absolute;
     bottom: 0px;

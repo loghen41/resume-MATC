@@ -47,17 +47,25 @@
 
     <div id="thanksBox">
             <div class="sitemapText">
-                <p style="font-size: 40px;"><strong>Sitemap Page</strong></p>
+                <p style="font-size: 40px;"><strong>Have Feedback? Let me know</strong></p>
             </div>
-            <div class="sitemapText">
-                <p><a href="index.html#top-clear">Home Page</a></p>
-                <p><a href="index.html#portfolio">Portfolio Page</a></p>
-                <p><a href="index.html#middle">Education Page</a></p>
-                <p><a href="index.html#bottom">Work Page</a></p>
-                <p><a href="index.html#clear-box">Contact Page</a></p>
-                <p> <a href="about.html">About Page</a></p>
-                <p> <a href="Feedback.html">Feedback</a></p>
-            </div>
+        <form id="feedbackForm" method="post" action="Thanks.html">
+            <label for="name" style="font-family: Georgia;">Name: </label> <input id="name" name="name" required placeholder="name"><br><br>
+            <label for="email" style="font-family: Georgia;">Email: </label><input id="email" name="email" required placeholder="email"><br><br>
+            <p>How would you rate your experience?</p>
+            <input type="radio" name="like" value="1"> 1
+            <input type="radio" name="like" value="2"> 2
+            <input type="radio" name="like" value="3"> 3
+            <input type="radio" name="like" value="4"> 4
+            <input type="radio" name="like" value="5"> 5
+            <p font-family="Georgia">Message</p>
+            <textarea cols="60" rows="10" maxlength="500" required placeholder="Please write out your suggestions! (500 Characters Maximum)"></textarea>
+            <br>
+            <label for="emaillist">Subscribe to my Email List</label>
+            <input type="checkbox" id="emaillist" checked>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 <div id="home">
     <div id = "footer-about">
