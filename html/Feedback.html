@@ -6,13 +6,13 @@
     <link href="../css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
-<div id = "navbar">
+<div id="navbar">
     <table>
         <tbody>
         <tr>
             <td id="homeIcon">
-                <a href ="index.html#top-clear">
-                    <img src= "../pictures/navbar/web%20(3).png">
+                <a href="index.html#top-clear">
+                    <img src="../pictures/navbar/web%20(3).png">
                 </a>
                 <p class="navbartext">Home</p>
             </td>
@@ -45,38 +45,63 @@
     </table>
 </div>
 
-    <div id="thanksBox">
-            <div class="sitemapText">
-                <p style="font-size: 40px;"><strong>Have Feedback? Let me know</strong></p>
-            </div>
+<div id="feedbackBox">
+    <div class="feedbackText">
+        <h1 style="font-family: Georgia, serif"><strong>Have Feedback? Let me know</strong></h1>
+        <br>
         <form id="feedbackForm" method="post" action="Thanks.html">
-            <label for="name" style="font-family: Georgia;">Name: </label> <input id="name" name="name" required placeholder="name"><br><br>
-            <label for="email" style="font-family: Georgia;">Email: </label><input id="email" name="email" required placeholder="email"><br><br>
-            <p>How would you rate your experience?</p>
+            <p><em>Did the page load quickly for you?</em></p>
+            <input type="radio" name="load" value="1"> 1
+            <input type="radio" name="load" value="2"> 2
+            <input type="radio" name="load" value="3"> 3
+            <input type="radio" name="load" value="4"> 4
+            <input type="radio" name="load" value="5"> 5
+            <p><em>Did you see any errors on the page?</em></p>
+            <input type="radio" name="error" value="1"> 1
+            <input type="radio" name="error" value="2"> 2
+            <input type="radio" name="error" value="3"> 3
+            <input type="radio" name="error" value="4"> 4
+            <input type="radio" name="error" value="5"> 5
+            <p><em>How would you rate the Design/style?</em></p>
+            <input type="radio" name="style" value="1"> 1
+            <input type="radio" name="style" value="2"> 2
+            <input type="radio" name="style" value="3"> 3
+            <input type="radio" name="style" value="4"> 4
+            <input type="radio" name="style" value="5"> 5
+            <p><em>How would you rate your overall experience?</em></p>
             <input type="radio" name="like" value="1"> 1
             <input type="radio" name="like" value="2"> 2
             <input type="radio" name="like" value="3"> 3
             <input type="radio" name="like" value="4"> 4
             <input type="radio" name="like" value="5"> 5
-            <p font-family="Georgia">Message</p>
-            <textarea cols="60" rows="10" maxlength="500" required placeholder="Please write out your suggestions! (500 Characters Maximum)"></textarea>
+            <p><em>Critical Question - How likely would you would hire me? :)</em></p>
+            <input type="radio" name="hire" value="1"> 1
+            <input type="radio" name="hire" value="2"> 2
+            <input type="radio" name="hire" value="3"> 3
+            <input type="radio" name="hire" value="4"> 4
+            <input type="radio" name="hire" value="5"> 5
             <br>
-            <label for="emaillist">Subscribe to my Email List</label>
-            <input type="checkbox" id="emaillist" checked>
+            <br>
+            <h3> <strong>Thank you for your feedback!</strong></h3>
             <br>
             <input type="submit" value="Submit">
         </form>
     </div>
+</div>
 <div id="home">
-    <div id = "footer-about">
+    <div id="footer-about">
         <a href="about.html"><p id="about"> About</p></a>
         <a href="Sitemap.html"><p id="sitemap"> Sitemap</p></a>
         <a href="Feedback.html"><p id="feedback"> Feedback </p></a>
-        <ul id = "social-media">
-            <li><a href = "http://www.facebook.com"><img src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/facebook-48.png"></a></li>
-            <li><a href = "http://www.twitter.com"> <img src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/twitter1-48.png"></a></li>
-            <li><a href = "http://www.youtube.com"><img src = "https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/youtube1-48.png"></a></li>
-            <li><a href = "http://www.gmail.com"><img src = "https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/google-48.png"></a></li>
+        <ul id="social-media">
+            <li><a href="http://www.facebook.com"><img
+                    src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/facebook-48.png"></a></li>
+            <li><a href="http://www.twitter.com"> <img
+                    src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/twitter1-48.png"></a></li>
+            <li><a href="http://www.youtube.com"><img
+                    src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/youtube1-48.png"></a></li>
+            <li><a href="http://www.gmail.com"><img
+                    src="https://cdn3.iconfinder.com/data/icons/social-media-set-3/60/google-48.png"></a></li>
         </ul>
     </div>
 </body>
